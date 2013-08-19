@@ -1,0 +1,9 @@
+﻿Build started 18.08.2013 21:13:39.
+     1>Project "C:\Users\Administrator\Desktop\TEST\src\Scripting\Lua\Lua.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         Lua.vcxproj -> C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\Lua.lib
+     1>Done Building Project "C:\Users\Administrator\Desktop\TEST\src\Scripting\Lua\Lua.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

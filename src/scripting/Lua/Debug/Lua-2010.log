@@ -1,0 +1,17 @@
+﻿Build started 18.08.2013 21:11:12.
+     1>Project "C:\Users\Administrator\Desktop\TEST\src\Scripting\Lua\Lua-2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Lua.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         Lua-2010.vcxproj -> C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\Lua.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lua.unsuccessfulbuild".
+         Touching "Debug\Lua.lastbuildstate".
+     1>Done Building Project "C:\Users\Administrator\Desktop\TEST\src\Scripting\Lua\Lua-2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24

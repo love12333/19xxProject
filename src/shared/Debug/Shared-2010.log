@@ -1,0 +1,77 @@
+﻿Build started 18.08.2013 21:10:17.
+     1>Project "C:\Users\Administrator\Desktop\TEST\src\shared\Shared-2010.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\shared.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D "_WIN32" /D _MBCS /D "_CRT_SECURE_NO_WARNINGS" /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\shared.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D "_WIN32" /D _MBCS /D "_CRT_SECURE_NO_WARNINGS" /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\shared.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CircularBuffer.cpp Condition.cpp crc32.cpp database\OdbcCommand.cpp database\OdbcConnection.cpp database\OdbcParameter.cpp database\OdbcRecordset.cpp DebugUtils.cpp "Ini.cpp" JvCryption.cpp KOSocket.cpp lzf.cpp Mutex.cpp ReferenceObject.cpp RWLock.cpp SMDFile.cpp Socket.cpp SocketMgr.cpp SocketMgrWin32.cpp SocketOpsWin32.cpp SocketWin32.cpp TimeThread.cpp
+         TimeThread.cpp
+         SocketWin32.cpp
+         SocketOpsWin32.cpp
+         SocketMgrWin32.cpp
+         SocketMgr.cpp
+         Socket.cpp
+         SMDFile.cpp
+         RWLock.cpp
+         ReferenceObject.cpp
+         Mutex.cpp
+         lzf.cpp
+         KOSocket.cpp
+         JvCryption.cpp
+         Ini.cpp
+         DebugUtils.cpp
+         OdbcRecordset.cpp
+         OdbcParameter.cpp
+         OdbcConnection.cpp
+         OdbcCommand.cpp
+         crc32.cpp
+         Generating Code...
+         Compiling...
+         Condition.cpp
+         CircularBuffer.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D "_WIN32" /D _MBCS /D "_CRT_SECURE_NO_WARNINGS" /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt globals.cpp signal_handler.cpp Thread.cpp tstring.cpp
+         tstring.cpp
+         Thread.cpp
+         signal_handler.cpp
+         globals.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\shared.lib" /NOLOGO Debug\CircularBuffer.obj
+         Debug\Condition.obj
+         Debug\crc32.obj
+         Debug\OdbcCommand.obj
+         Debug\OdbcConnection.obj
+         Debug\OdbcParameter.obj
+         Debug\OdbcRecordset.obj
+         Debug\DebugUtils.obj
+         Debug\globals.obj
+         "Debug\Ini.obj"
+         Debug\JvCryption.obj
+         Debug\KOSocket.obj
+         Debug\lzf.obj
+         Debug\Mutex.obj
+         Debug\ReferenceObject.obj
+         Debug\RWLock.obj
+         Debug\signal_handler.obj
+         Debug\SMDFile.obj
+         Debug\Socket.obj
+         Debug\SocketMgr.obj
+         Debug\SocketMgrWin32.obj
+         Debug\SocketOpsWin32.obj
+         Debug\SocketWin32.obj
+         Debug\stdafx.obj
+         Debug\Thread.obj
+         Debug\TimeThread.obj
+         Debug\tstring.obj
+     1>stdafx.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Shared-2010.vcxproj -> C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\shared.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\shared.unsuccessfulbuild".
+         Touching "Debug\shared.lastbuildstate".
+     1>Done Building Project "C:\Users\Administrator\Desktop\TEST\src\shared\Shared-2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.12

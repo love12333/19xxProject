@@ -1,0 +1,84 @@
+﻿Build started 18.08.2013 21:16:28.
+     1>Project "C:\Users\Administrator\Desktop\TEST\src\GameServer\proj-GameServer.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\GameServer.exe" /INCREMENTAL /NOLOGO ws2_32.lib C:\Users\Administrator\Desktop\TEST\src\../bin/Debug/Lua.lib C:\Users\Administrator\Desktop\TEST\src\../bin/Debug/shared.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\GameServer.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\GameServer.lib" /MACHINE:X86 /SAFESEH:NO Debug\GameServer.res
+         .\Debug/N3ShapeMgr.obj
+         ".\Debug/AISocket.obj"
+         .\Debug/ArenaHandler.obj
+         .\Debug/AttackHandler.obj
+         .\Debug/CharacterSelectionHandler.obj
+         .\Debug/CharacterMovementHandler.obj
+         .\Debug/ChatHandler.obj
+         ".\Debug/ConsoleInputThread.obj"
+         .\Debug/DatabaseThread.obj
+         .\Debug/DBAgent.obj
+         .\Debug/GameServerDlg.obj
+         .\Debug/EventHandler.obj
+         .\Debug/FriendHandler.obj
+         .\Debug/GameEvent.obj
+         ".\Debug/ItemHandler.obj"
+         .\Debug/KingSystem.obj
+         .\Debug/Knights.obj
+         .\Debug/KnightsManager.obj
+         .\Debug/LetterHandler.obj
+         .\Debug/LoginHandler.obj
+         .\Debug/LuaEngine.obj
+         .\Debug/lua_bindings.obj
+         ".\Debug/MagicInstance.obj"
+         .\Debug/MagicProcess.obj
+         .\Debug/main.obj
+         .\Debug/Map.obj
+         .\Debug/MerchantHandler.obj
+         .\Debug/Npc.obj
+         .\Debug/NPCHandler.obj
+         .\Debug/PartyHandler.obj
+         .\Debug/QuestHandler.obj
+         .\Debug/Region.obj
+         .\Debug/RentalHandler.obj
+         .\Debug/LoadServerData.obj
+         .\Debug/SealHandler.obj
+         .\Debug/ShoppingMallHandler.obj
+         .\Debug/StdAfx.obj
+         .\Debug/TradeHandler.obj
+         .\Debug/Unit.obj
+         .\Debug/UpgradeHandler.obj
+         .\Debug/User.obj
+     1>shared.lib(SocketMgrWin32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(DebugUtils.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(Mutex.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(lzf.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(KOSocket.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(ReferenceObject.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(TimeThread.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(globals.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(tstring.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(Socket.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(Thread.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(RWLock.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(Condition.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(OdbcCommand.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(OdbcConnection.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(SocketOpsWin32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(SocketMgr.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(Ini.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(JvCryption.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(signal_handler.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(SMDFile.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(OdbcRecordset.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(SocketWin32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(CircularBuffer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(crc32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(OdbcParameter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in N3ShapeMgr.obj
+     1>shared.lib(globals.obj) : error LNK2019: unresolved external symbol "void __cdecl std::tr1::_Rng_abort(char const *)" (?_Rng_abort@tr1@std@@YAXPBD@Z) referenced in function "public: void __thiscall std::tr1::mersenne_twister<unsigned long,32,624,397,31,2567483615,11,7,2636928640,15,4022730752,18>::seed(unsigned long,unsigned long)" (?seed@?$mersenne_twister@K$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@tr1@std@@QAEXKK@Z)
+     1>shared.lib(Ini.obj) : error LNK2019: unresolved external symbol "public: __thiscall std::_Mutex::~_Mutex(void)" (??1_Mutex@std@@QAE@XZ) referenced in function __unwindfunclet$??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ$0
+     1>shared.lib(Ini.obj) : error LNK2019: unresolved external symbol "public: __thiscall std::_Mutex::_Mutex(void)" (??0_Mutex@std@@QAE@XZ) referenced in function "protected: __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ)
+     1>shared.lib(Ini.obj) : error LNK2019: unresolved external symbol "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(void)" (?_Init@locale@std@@CAPAV_Locimp@12@XZ) referenced in function "public: __thiscall std::locale::locale(void)" (??0locale@std@@QAE@XZ)
+     1>shared.lib(Ini.obj) : error LNK2019: unresolved external symbol "private: static void __cdecl std::locale::facet::_Facet_Register(class std::locale::facet *)" (?_Facet_Register@facet@locale@std@@CAXPAV123@@Z) referenced in function "public: void __thiscall std::locale::facet::_Register(void)" (?_Register@facet@locale@std@@QAEXXZ)
+     1>shared.lib(Ini.obj) : error LNK2019: unresolved external symbol "public: void __thiscall std::_Mutex::_Lock(void)" (?_Lock@_Mutex@std@@QAEXXZ) referenced in function "public: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Lock(void)" (?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>shared.lib(Ini.obj) : error LNK2019: unresolved external symbol "public: void __thiscall std::_Mutex::_Unlock(void)" (?_Unlock@_Mutex@std@@QAEXXZ) referenced in function "public: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock(void)" (?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\GameServer.exe : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "C:\Users\Administrator\Desktop\TEST\src\GameServer\proj-GameServer.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.54

@@ -1,0 +1,85 @@
+﻿Build started 18.08.2013 21:11:13.
+     1>Project "C:\Users\Administrator\Desktop\TEST\src\GameServer\proj-GameServer-2010.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\GameServer.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\GameServer.exe" /INCREMENTAL /NOLOGO ws2_32.lib C:\Users\Administrator\Desktop\TEST\src\\..\bin\Debug\Lua.lib C:\Users\Administrator\Desktop\TEST\src\\..\bin\Debug\shared.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GameServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/GameServer.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\Administrator\Desktop\TEST\src\..\bin\Debug\GameServer.lib" /MACHINE:X86 Debug\GameServer.res
+         Debug\GameServer.exe.embed.manifest.res
+         .\Debug/N3ShapeMgr.obj
+         .\Debug/CircularBuffer.obj
+         .\Debug/Condition.obj
+         .\Debug/crc32.obj
+         .\Debug/OdbcCommand.obj
+         .\Debug/OdbcConnection.obj
+         .\Debug/OdbcParameter.obj
+         .\Debug/OdbcRecordset.obj
+         .\Debug/DebugUtils.obj
+         ".\Debug/Ini.obj"
+         .\Debug/JvCryption.obj
+         .\Debug/KOSocket.obj
+         .\Debug/lzf.obj
+         .\Debug/Mutex.obj
+         .\Debug/ReferenceObject.obj
+         .\Debug/RWLock.obj
+         .\Debug/SMDFile.obj
+         .\Debug/Socket.obj
+         .\Debug/SocketMgr.obj
+         .\Debug/SocketMgrWin32.obj
+         .\Debug/SocketOpsWin32.obj
+         .\Debug/SocketWin32.obj
+         .\Debug/TimeThread.obj
+         .\Debug/tstring.obj
+         ".\Debug/AISocket.obj"
+         .\Debug/ArenaHandler.obj
+         .\Debug/AttackHandler.obj
+         .\Debug/CharacterSelectionHandler.obj
+         .\Debug/CharacterMovementHandler.obj
+         .\Debug/ChatHandler.obj
+         ".\Debug/ConsoleInputThread.obj"
+         .\Debug/DatabaseThread.obj
+         .\Debug/DBAgent.obj
+         .\Debug/GameServerDlg.obj
+         .\Debug/FriendHandler.obj
+         .\Debug/GameEvent.obj
+         ".\Debug/ItemHandler.obj"
+         .\Debug/KingSystem.obj
+         .\Debug/Knights.obj
+         .\Debug/KnightsManager.obj
+         .\Debug/LetterHandler.obj
+         .\Debug/LoadServerData.obj
+         .\Debug/LoginHandler.obj
+         .\Debug/LuaEngine.obj
+         .\Debug/lua_bindings.obj
+         ".\Debug/MagicInstance.obj"
+         .\Debug/MagicProcess.obj
+         .\Debug/main.obj
+         .\Debug/Map.obj
+         .\Debug/MerchantHandler.obj
+         .\Debug/Npc.obj
+         .\Debug/NPCHandler.obj
+         .\Debug/PartyHandler.obj
+         .\Debug/QuestHandler.obj
+         .\Debug/Region.obj
+         .\Debug/RentalHandler.obj
+         .\Debug/SealHandler.obj
+         .\Debug/ShoppingMallHandler.obj
+         .\Debug/StdAfx.obj
+         .\Debug/TradeHandler.obj
+         .\Debug/Unit.obj
+         .\Debug/UpgradeHandler.obj
+         .\Debug/EventHandler.obj
+         .\Debug/User.obj
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "C:\Users\Administrator\Desktop\TEST\src\GameServer\proj-GameServer-2010.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.47
